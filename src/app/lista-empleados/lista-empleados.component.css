@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .table-container {
+    width: 80%; 
+    margin-top: 20px; 
+    overflow: auto; 
+  }
+  
+  .mat-table {
+    width: 100%;
+    text-align: center;
+  }
+
+  .mat-header-cell {
+    background-color: rgb(24, 161, 234); 
+    color: white; 
+    font-weight: bold; 
+    padding: 15px;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .mat-header-row,
+.mat-row {
+  margin-bottom: 10px;
+}
+
+  
+  
